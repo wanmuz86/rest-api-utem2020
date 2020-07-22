@@ -14,7 +14,7 @@ http://www.makan minum.com ==> makan%20minum.com
 // I use bodyParser (configuration to configure that my API will encode the URL)
 // I accept json in the body
 
-var port = process.env.port || 8080
+var port = process.env.PORT || 8080
 // Routing
 
 var router  = express.Router()
